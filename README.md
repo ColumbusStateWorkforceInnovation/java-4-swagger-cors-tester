@@ -13,8 +13,8 @@ It assumes:
 3. A browser should open to http://localhost:3000 .
 
 ## Using Docker
-1. Build the Dockerfile: `docker build . -t cors:tester:dev`
-2. Run it via `docker run -e REACT_APP_API_URL=<url here> cors:tester:dev`
+1. Build the Dockerfile: `docker build . -t cors-tester:dev`
+2. Run it via `docker run -e REACT_APP_API_URL=<url here> cors-tester:dev`
 
 If CORS has been configured correctly in the app then Swagger UI should load without any issues and you can start executing requests (which should also succeed without CORS errors).
 
